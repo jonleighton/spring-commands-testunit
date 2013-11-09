@@ -19,14 +19,8 @@ spring rake test test/controllers
 
 ## Usage
 
-Add to the `development` group in your Gemfile:
+Add to your Gemfile:
 
 ``` ruby
-gem "spring-commands-testunit", require: false
-```
-
-Add to your `config/spring.rb`:
-
-``` ruby
-require "spring/commands/testunit"
+gem "spring-commands-testunit"
 ```
