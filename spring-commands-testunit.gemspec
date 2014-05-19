@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "spring-commands-testunit"
-  spec.version       = "1.0.1"
+  spec.version       = "1.0.2"
   spec.authors       = ["Jon Leighton"]
   spec.email         = ["j@jonathanleighton.com"]
   spec.description   = %q{testunit command for spring}
   spec.summary       = %q{testunit command for spring}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/jonleighton/spring-commands-testunit"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
